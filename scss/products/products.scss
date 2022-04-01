@@ -14,10 +14,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: -18px;
 
     button {
         @include site-button();
         @include site-button-sweep-anim($sweepColor: $site-red);
+
+    
     }
   }
  
@@ -76,15 +79,13 @@
     }
 
       .product-details {
-        margin-top: 12px;
+        margin-top: 10px;
 
          
         h4 {
           font-family: FiraSansRegular;
           text-align: center;
           font-size: 22px;
-     
-     
         }
 
         p {

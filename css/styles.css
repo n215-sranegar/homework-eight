@@ -305,6 +305,7 @@ nav .icons i:hover .follow a {
   z-index: 1;
   border: 1px solid #121111;
   margin-top: 20px;
+  line-height: 16px;
 }
 .home .home-wrapper .square .home-header button:after {
   content: "";
@@ -1005,6 +1006,7 @@ nav .icons i:hover .follow a {
   z-index: 1;
   border: 1px solid #121111;
   margin-top: 20px;
+  line-height: 16px;
 }
 .featured .featured-container .content-container .content-wrapper .featured-description button:after {
   content: "";
@@ -1395,6 +1397,7 @@ nav .icons i:hover .follow a {
   z-index: 1;
   border: 1px solid #121111;
   margin-top: 20px;
+  line-height: 16px;
 }
 .pets .pet-products-container .content-container .text-content button:after {
   content: "";
@@ -2145,6 +2148,7 @@ nav .icons i:hover .follow a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -18px;
 }
 .full-product-page-container .buttons-wrapper button {
   color: #121111;
@@ -2158,6 +2162,7 @@ nav .icons i:hover .follow a {
   z-index: 1;
   border: 1px solid #121111;
   margin-top: 20px;
+  line-height: 16px;
 }
 .full-product-page-container .buttons-wrapper button:after {
   content: "";
@@ -2275,7 +2280,7 @@ nav .icons i:hover .follow a {
   width: 100%;
 }
 .full-product-page-container .products-row .product-container .product-details {
-  margin-top: 12px;
+  margin-top: 10px;
 }
 .full-product-page-container .products-row .product-container .product-details h4 {
   font-family: FiraSansRegular;
