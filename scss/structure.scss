@@ -18,6 +18,11 @@ p {
   margin-bottom: 16px;
 }
 
+#app {
+  min-height: calc(100vh - 90px);
+  width: 100%;
+}
+
 @font-face {
   font-family: FiraSansThin;
   src: url(../fonts/FiraSans/FiraSans-Thin.ttf);
