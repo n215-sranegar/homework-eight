@@ -27,7 +27,7 @@
 }
 
 .farmer-content {
-  max-width: 860px;
+  max-width: 880px;
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -37,19 +37,22 @@
 
   svg {
     position: absolute;
-    left: 240px;
+    left: 250px;
     top: 120px;
   }
 
   .about-img {
-    width: 280px;
-    height: 280px;
+    margin-top: 35px;
+    margin-left: -60px;
+    width: 320px;
+    height: 320px;
     border-radius: 50%;
     background-image: url(../images/farmers-about-img.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
   }
+
   .about-text {
     width: 520px;
     padding-left: 20px;
@@ -311,8 +314,8 @@
          
 
         .creator-circle {
-          width: 110px;
-          height: 110px;
+          width: 100px;
+          height: 100px;
           border-radius: 50%;
         }
 
@@ -389,7 +392,7 @@
     }
 
     .star-products-wrapper {
-      padding: 0 10px 20px 0;
+      padding: 0 20px 20px 30px;
 
       .product {
         margin: 0 auto;
