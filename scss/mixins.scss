@@ -9,6 +9,17 @@
   height: 100%;
 }
 
+//Product section images
+@mixin full-product-img($productImg: url(../images/cbd-edibles-1.jpg)) {
+  background-image: $productImg;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+   width: 100%;
+}
+
+
 //Featured section images
 @mixin featured-img($productImg: url(../images/featured-photo-1.jpeg)) {
   background-image: $productImg;

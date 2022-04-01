@@ -2130,5 +2130,164 @@ nav .icons i:hover .follow a {
     padding-left: 0px;
   }
 }
+.full-product-page-container {
+  padding: 40px 10px 100px 10px;
+  width: 100%;
+}
+.full-product-page-container h3 {
+  font-family: SmithenScript;
+  font-size: 62px;
+  text-align: center;
+}
+.full-product-page-container .buttons-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.full-product-page-container .buttons-wrapper button {
+  color: #121111;
+  width: 150px;
+  height: 40px;
+  font-family: FiraSansLight;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 1px solid #121111;
+  margin-top: 20px;
+}
+.full-product-page-container .buttons-wrapper button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -2;
+}
+.full-product-page-container .buttons-wrapper button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #f72c4d;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.full-product-page-container .buttons-wrapper button:hover {
+  cursor: pointer;
+  color: #fff;
+  border: #ce0828;
+}
+.full-product-page-container .buttons-wrapper button:hover:before {
+  width: 100%;
+}
+.full-product-page-container .products-row {
+  display: flex;
+  margin: 80px auto 150px auto;
+  max-width: 980px;
+  justify-content: space-between;
+  align-items: center;
+}
+.full-product-page-container .products-row .product-container {
+  width: 276px;
+  height: 248px;
+  padding: 0px 2.5px;
+}
+.full-product-page-container .products-row .product-container .product-page-img {
+  border-radius: 7px;
+  height: 100%;
+  background-image: url(../images/cbd-edibles-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.full-product-page-container .products-row .product-container .row1-2 {
+  background-image: url(../images/cbd-edibles-2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.full-product-page-container .products-row .product-container .row1-3 {
+  background-image: url(../images/cbd-edibles-3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.full-product-page-container .products-row .product-container .row2-1 {
+  background-image: url(../images/cbd-edibles-4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.full-product-page-container .products-row .product-container .row2-2 {
+  background-image: url(../images/ig-photo-1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.full-product-page-container .products-row .product-container .row2-3 {
+  background-image: url(../images/cbd-edibles-5.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.full-product-page-container .products-row .product-container .row3-1 {
+  background-image: url(../images/cbd-edibles-7.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.full-product-page-container .products-row .product-container .row3-2 {
+  background-image: url(../images/ig-photo-6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.full-product-page-container .products-row .product-container .row3-3 {
+  background-image: url(../images/cbd-edibles-8.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+}
+.full-product-page-container .products-row .product-container .product-details {
+  margin-top: 12px;
+}
+.full-product-page-container .products-row .product-container .product-details h4 {
+  font-family: FiraSansRegular;
+  text-align: center;
+  font-size: 22px;
+}
+.full-product-page-container .products-row .product-container .product-details p {
+  font-family: FiraSansCondensedItalic;
+  color: #00000086;
+  font-size: 20px;
+  text-align: center;
+  margin-top: -16px;
+}
 
 /*# sourceMappingURL=styles.css.map */

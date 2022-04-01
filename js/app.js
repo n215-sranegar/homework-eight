@@ -491,7 +491,7 @@ var homeContent = `<section class="home">
 </section>
 
 <script src="js/slider.js"></script>`;
-var aboutContent = `  <div class="hero">
+var aboutContent = `<div class="hero">
 <h1>From farm to&nbsp;table.</h1>
 <p>Asheville, NC Since 2011</p>
 </div>
@@ -580,6 +580,8 @@ var aboutContent = `  <div class="hero">
   </div>
 </div>
 </div>`;
+var productsContent = ``;
+var contactContent = ``;
 
 function initListeners() {
     $("nav a").click(function (e) {
@@ -599,6 +601,6 @@ function initApp() {
 }
 
 $(document).ready(function () {
-    loadPageContent("home");
+    loadPageContent("");
     initApp();
 })

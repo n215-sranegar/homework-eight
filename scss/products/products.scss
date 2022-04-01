@@ -1,0 +1,101 @@
+.full-product-page-container {
+    padding: 40px 10px 100px 10px;
+    width: 100%;
+    
+  h3 {
+    font-family: SmithenScript;
+    font-size: 62px;
+    text-align: center;
+  }
+
+  .buttons-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+        @include site-button();
+        @include site-button-sweep-anim($sweepColor: $site-red);
+    }
+  }
+ 
+
+  .products-row {
+    display: flex;
+    margin: 80px auto 150px auto;
+    max-width: $medium-width;
+    justify-content: space-between;
+    align-items: center;
+
+    
+
+    .product-container {
+      width: 276px;
+      height: 248px;
+      padding: 0px 2.5px;
+
+      .product-page-img {
+        border-radius: 7px;
+        height: 100%;
+     
+        @include full-product-img()
+      }
+
+      .row1-2 {
+        @include full-product-img(url(../images/cbd-edibles-2.jpg))
+      }
+
+      .row1-3 {
+        @include full-product-img(url(../images/cbd-edibles-3.jpg))
+    }
+
+    .row2-1 {
+        @include full-product-img(url(../images/cbd-edibles-4.jpg))
+    }
+
+    .row2-2 {
+        @include full-product-img(url(../images/ig-photo-1.jpg))
+    }
+
+    .row2-3 {
+        @include full-product-img(url(../images/cbd-edibles-5.jpeg))
+    }
+
+    .row3-1 {
+        @include full-product-img(url(../images/cbd-edibles-7.jpeg))
+    }
+
+    .row3-2 {
+        @include full-product-img(url(../images/ig-photo-6.jpg))
+    }
+
+    .row3-3 {
+        @include full-product-img(url(../images/cbd-edibles-8.jpeg))
+    }
+
+      .product-details {
+        margin-top: 12px;
+
+         
+        h4 {
+          font-family: FiraSansRegular;
+          text-align: center;
+          font-size: 22px;
+     
+     
+        }
+
+        p {
+            font-family: FiraSansCondensedItalic;
+            color: $product-price;
+            font-size: 20px;
+            text-align: center;
+            margin-top: -16px;
+         
+        }
+      }
+    }
+  }
+}
