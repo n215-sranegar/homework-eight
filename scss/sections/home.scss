@@ -35,6 +35,7 @@
         button {
           @include site-button();
           @include site-button-sweep-anim($sweepColor: $site-red);
+          margin-top: 50px;
         }
       }
     }

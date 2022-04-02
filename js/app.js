@@ -491,8 +491,9 @@ var homeContent = `<section class="home">
 </section>
 
 <script src="js/slider.js"></script>`;
+
 var aboutContent = `<div class="hero">
-<h1>From farm to&nbsp;table.</h1>
+<h1>Farm to&nbsp;Table.</h1>
 <p>Asheville, NC Since 2011</p>
 </div>
 <div class="farmer-content">
@@ -547,8 +548,8 @@ var aboutContent = `<div class="hero">
 </div>
 <div class="products-content">
 <div class="products-text-container">
-<h2>...to the products you&nbsp;love.</h2>
-<p>Delivered straight to your door. <a href="#">Sign up</a> for our newsletter 
+<h2>...delivered straight to your&nbsp;door.</h2>
+<p><a href="#">Sign up</a> for our newsletter 
   to stay informed of all brand new products OR <a href="#">subscribe</a> to 
   one of our subscription boxes to receive exclusive products every&nbsp;month!</p>
 </div>
@@ -580,8 +581,9 @@ var aboutContent = `<div class="hero">
   </div>
 </div>
 </div>`;
+
 var productsContent = ` <div class="full-product-page-container">
-<h3>Edible Treats</h3>
+<h3>Shop CBD</h3>
 <div class="buttons-wrapper">
 <button>All CBD</button><button>Edibles</button><button>CBD Oils</button><button>Bath Bombs</button><button>CBD Pets</button>
 </div>
@@ -656,7 +658,65 @@ var productsContent = ` <div class="full-product-page-container">
 </div>
 </div>`;
 
-var contactContent = ``;
+var contactContent = `    <div class="contact-page-wrapper">
+<div class="contact-container">
+  <div class="contact-info-left">
+    <div class="contact-info questions">
+      <h4>Contact</h4>
+      <p>Have questions about our products or your order? Send us a message! We'll get back to you within 48 hours.</p>
+    </div>
+
+  <div class="contact-info">
+    <h4>Phone Number</h4>
+    <p>555-555-4305</p>
+  </div>
+  <div class="contact-info">
+    <h4>Stay in Touch</h4>
+    <div class="social-media-icons">
+      <p><i class="fa-brands fa-instagram"></i></p>
+      <p><i class="fa-brands fa-twitter"></i></p>
+      <p><i class="fa-brands fa-facebook-square"></i></p>
+    </div>
+  </div>
+  <div class="contact-info">
+    <h4>Visit Us</h4>
+    <p>4 South Tunnel Road<br>
+      Asheville, NC 28805
+      </p>
+  </div>
+</div>
+  <div class="contact-form">
+    <h1>Get in touch!</h1>
+    <div class="contact-info questions">
+      <p>Have questions about our products or your order? Send us a message! We'll get back to you within 48 hours.</p>
+    </div>
+    <input type="text" placeholder="name">
+    <input type="text" placeholder="email">
+    <textarea name="" id="" cols="30" rows="10" placeholder="message..."></textarea>
+    <button>SEND</button>
+  </div>
+</div> 
+</div>`;
+
+var loginContent = `  <div class="create-account-wrapper">
+<div class="content-wrapper">
+  <h1>Create an Account</h1>
+  <p>Save your profile and get personalized products you'll love</p>
+  <p class="secondary">Please complete the entire form. All fields required.</p>
+  <div class="input-row">
+    <input type="text" placeholder="First Name">
+    <input type="text" placeholder="Last Name">
+  </div>
+    <input type="text" placeholder="Email">
+    <input type="text" placeholder="Phone Number (optional)">
+    <input type="text" placeholder="Password">
+    <div class="button-wrapper">
+    <button>Submit</button>
+  </div>
+    <p>Already have an account? <a href="#">Sign in.</a></p>
+ 
+</div>
+</div>`;
 
 function initListeners() {
     $("nav a").click(function (e) {

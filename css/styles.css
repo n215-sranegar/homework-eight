@@ -306,6 +306,7 @@ nav .icons i:hover .follow a {
   border: 1px solid #121111;
   margin-top: 20px;
   line-height: 16px;
+  margin-top: 50px;
 }
 .home .home-wrapper .square .home-header button:after {
   content: "";
@@ -656,7 +657,6 @@ nav .icons i:hover .follow a {
 .weekly-deals .weekly-deals-wrapper h2 {
   font-family: SmithenScript;
   max-width: 600px;
-  font-weight: bolder;
   height: auto;
   text-align: center;
   margin: 0 auto;
@@ -1167,7 +1167,6 @@ nav .icons i:hover .follow a {
   color: white;
   margin: 10px 6px;
   white-space: nowrap;
-  font-weight: bolder;
   background-image: linear-gradient(-90deg, #e20f71, #fff453, #45dbd6, #6e57f3, #e20f71);
   animation: slidebg 65s linear infinite alternate;
   background-size: 100%;
@@ -1819,14 +1818,14 @@ nav .icons i:hover .follow a {
 }
 .farmer-content svg {
   position: absolute;
-  left: 250px;
-  top: 120px;
+  left: 240px;
+  top: 180px;
 }
 .farmer-content .about-img {
-  margin-top: 35px;
-  margin-left: -60px;
-  width: 320px;
-  height: 320px;
+  margin-top: 80px;
+  margin-left: -120px;
+  width: 350px;
+  height: 350px;
   border-radius: 50%;
   background-image: url(../images/farmers-about-img.jpg);
   background-size: cover;
@@ -1865,7 +1864,7 @@ nav .icons i:hover .follow a {
 }
 .creator-content svg {
   position: absolute;
-  right: 490px;
+  right: 470px;
   bottom: 30px;
 }
 .creator-content .creator-img {
@@ -2181,14 +2180,14 @@ nav .icons i:hover .follow a {
   left: 0;
   width: 0%;
   height: 100%;
-  background-color: #f72c4d;
+  background-color: #f34a99;
   transition: all 0.3s;
   z-index: -1;
 }
 .full-product-page-container .buttons-wrapper button:hover {
   cursor: pointer;
   color: #fff;
-  border: #ce0828;
+  border: #e20f71;
 }
 .full-product-page-container .buttons-wrapper button:hover:before {
   width: 100%;
@@ -2293,6 +2292,315 @@ nav .icons i:hover .follow a {
   font-size: 20px;
   text-align: center;
   margin-top: -16px;
+}
+
+.contact-page-wrapper {
+  width: 100%;
+  position: relative;
+}
+.contact-page-wrapper .contact-container {
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.contact-page-wrapper .contact-container .contact-info-left {
+  width: 300px;
+  padding: 250px 60px 140px 20px;
+}
+.contact-page-wrapper .contact-container .contact-info-left .contact-info {
+  width: 99%;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.contact-page-wrapper .contact-container .contact-info-left .contact-info .social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  margin-top: 15px;
+}
+.contact-page-wrapper .contact-container .contact-info-left .contact-info .social-media-icons p i {
+  font-size: 18px;
+  transition: 0.2s ease-in, 0.2s ease-out;
+  margin-top: 10px;
+}
+.contact-page-wrapper .contact-container .contact-info-left .contact-info .social-media-icons p i:hover {
+  cursor: pointer;
+  background-image: linear-gradient(-90deg, #e20f71, #fff453, #45dbd6, #6e57f3, #e20f71);
+  animation: slidebg 350s linear infinite alternate;
+  transform: scale(1.2);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+@keyframes slidebg {
+  to {
+    background-position: 80vw;
+  }
+}
+.contact-page-wrapper .contact-container .contact-info-left .contact-info .social-media-icons p i:hover .follow {
+  margin-top: 40px;
+}
+.contact-page-wrapper .contact-container .contact-info-left .contact-info .social-media-icons p i:hover .follow a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.contact-page-wrapper .contact-container .contact-info-left .contact-info h4 {
+  font-family: FiraSansRegular;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+.contact-page-wrapper .contact-container .contact-info-left .contact-info p {
+  font-family: FiraSansLight;
+  font-size: 14px;
+  margin-top: -10px;
+}
+.contact-page-wrapper .contact-container .contact-form {
+  padding: 5px 20px 5px 5px;
+  width: 100%;
+  margin-top: 40px;
+}
+.contact-page-wrapper .contact-container .contact-form .contact-info {
+  display: none;
+}
+.contact-page-wrapper .contact-container .contact-form h1 {
+  font-family: SmithenScript;
+  font-size: 62px;
+  padding: 15px 10px;
+}
+.contact-page-wrapper .contact-container .contact-form input {
+  width: 100%;
+  height: 56px;
+  background-color: #2c2c2c;
+  border: none;
+  margin-bottom: 20px;
+  font-family: FiraSansLight;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0%;
+}
+.contact-page-wrapper .contact-container .contact-form textarea {
+  width: 100%;
+  background-color: #2c2c2c;
+  border: none;
+  margin-bottom: 10px;
+  font-family: FiraSansLight;
+  color: #fff;
+  padding: 10px;
+  border-radius: 0%;
+}
+.contact-page-wrapper .contact-container .contact-form button {
+  color: #121111;
+  width: 150px;
+  height: 40px;
+  font-family: FiraSansLight;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 1px solid #121111;
+  margin-top: 20px;
+  line-height: 16px;
+  margin-top: 0px;
+  float: right;
+  color: #fff;
+  border: none;
+}
+.contact-page-wrapper .contact-container .contact-form button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2c2c2c;
+  z-index: -2;
+}
+.contact-page-wrapper .contact-container .contact-form button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #f34a99;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.contact-page-wrapper .contact-container .contact-form button:hover {
+  cursor: pointer;
+  color: #fff;
+  border: #e20f71;
+}
+.contact-page-wrapper .contact-container .contact-form button:hover:before {
+  width: 100%;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-page-wrapper .contact-container {
+    flex-direction: column-reverse;
+  }
+  .contact-page-wrapper .contact-container .contact-info-left {
+    width: 100%;
+    margin: 0px auto 10px auto;
+    padding: 10px;
+  }
+  .contact-page-wrapper .contact-container .contact-info-left .questions {
+    display: none;
+  }
+  .contact-page-wrapper .contact-container .contact-info-left .contact-info {
+    width: 90%;
+  }
+  .contact-page-wrapper .contact-container .contact-info-left .contact-info h4 {
+    text-align: center;
+  }
+  .contact-page-wrapper .contact-container .contact-info-left .contact-info p {
+    text-align: center;
+  }
+  .contact-page-wrapper .contact-container .contact-info-left .contact-info .social-media-icons {
+    width: 90px;
+    margin: 0 auto;
+  }
+  .contact-page-wrapper .contact-container .contact-info-left .contact-info .social-media-icons p i {
+    margin-top: 16px;
+    font-size: 20px;
+  }
+  .contact-page-wrapper .contact-container .contact-form {
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  .contact-page-wrapper .contact-container .contact-form h1 {
+    text-align: center;
+    padding: 60px 0px 10px 0px;
+    line-height: 45px;
+    font-weight: 500;
+  }
+  .contact-page-wrapper .contact-container .contact-form button {
+    width: 100%;
+  }
+  .contact-page-wrapper .contact-container .contact-form .contact-info {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+  }
+  .contact-page-wrapper .contact-container .contact-form .contact-info p {
+    text-align: center;
+    font-family: FiraSansLight;
+    font-size: 14px;
+  }
+}
+.create-account-wrapper {
+  width: 100%;
+  padding-bottom: 15px;
+}
+.create-account-wrapper .content-wrapper {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.create-account-wrapper .content-wrapper h1 {
+  font-family: SmithenScript;
+  font-size: 62px;
+  text-align: center;
+  padding-top: 30px;
+}
+.create-account-wrapper .content-wrapper p {
+  font-family: FiraSansLight;
+  text-align: center;
+}
+.create-account-wrapper .content-wrapper p a {
+  color: #e20f71;
+}
+.create-account-wrapper .content-wrapper .secondary {
+  font-family: FiraSansLight;
+  font-size: 14px;
+  width: 350px;
+  color: #00000086;
+  margin: -5px auto 0px auto;
+}
+.create-account-wrapper .content-wrapper .input-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.create-account-wrapper .content-wrapper .input-row input {
+  border: 0.5px solid #0000009a;
+  width: 90%;
+  height: 56px;
+  font-family: FiraSansLight;
+  color: #121111;
+  padding: 10px;
+  border-radius: 0%;
+  font-size: 12px;
+}
+.create-account-wrapper .content-wrapper input {
+  border: 0.5px solid #0000009a;
+  width: 100%;
+  height: 56px;
+  margin-top: 25px;
+  font-family: FiraSansLight;
+  color: #121111;
+  padding: 10px;
+  border-radius: 0%;
+  font-size: 12px;
+}
+.create-account-wrapper .content-wrapper .button-wrapper {
+  width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 8px;
+}
+.create-account-wrapper .content-wrapper .button-wrapper button {
+  margin: 15px 0px;
+  color: #121111;
+  width: 150px;
+  height: 40px;
+  font-family: FiraSansLight;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  border: 1px solid #121111;
+  margin-top: 20px;
+  line-height: 16px;
+}
+.create-account-wrapper .content-wrapper .button-wrapper button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  z-index: -2;
+}
+.create-account-wrapper .content-wrapper .button-wrapper button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #f72c4d;
+  transition: all 0.3s;
+  z-index: -1;
+}
+.create-account-wrapper .content-wrapper .button-wrapper button:hover {
+  cursor: pointer;
+  color: #fff;
+  border: #ce0828;
+}
+.create-account-wrapper .content-wrapper .button-wrapper button:hover:before {
+  width: 100%;
 }
 
 /*# sourceMappingURL=styles.css.map */

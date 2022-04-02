@@ -18,9 +18,9 @@
 
     button {
         @include site-button();
-        @include site-button-sweep-anim($sweepColor: $site-red);
+       
 
-    
+        @include site-button-sweep-anim($sweepColor: $site-pink, $btnBgColor: $site-white, $fontColor: $site-white);
     }
   }
  
