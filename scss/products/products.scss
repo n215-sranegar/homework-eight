@@ -42,8 +42,17 @@
       .product-page-img {
         border-radius: 7px;
         height: 100%;
+        box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+        transition: 0.2s ease-in, 0.2s ease-out;
      
-        @include full-product-img()
+        @include full-product-img();
+       
+        &:hover {
+          cursor: pointer;
+          box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+          transition: 0.2s ease-in, 0.2s ease-out;
+
+        }
       }
 
       .row1-2 {
