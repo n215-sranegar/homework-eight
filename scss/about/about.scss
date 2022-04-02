@@ -27,7 +27,7 @@
 }
 
 .farmer-content {
-  max-width: 880px;
+  max-width: 980px;
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -37,13 +37,13 @@
 
   svg {
     position: absolute;
-    left: 240px;
-    top: 180px;
+    left: 330px;
+    top: 230px;
   }
 
   .about-img {
     margin-top: 80px;
-    margin-left: -120px;
+    // margin-left: -100px;
     width: 350px;
     height: 350px;
     border-radius: 50%;
@@ -75,7 +75,7 @@
 }
 
 .creator-content {
-  max-width: 1100px;
+  max-width: 1200px;
   display: flex;
   margin: 0 auto;
   align-items: center;
@@ -89,9 +89,10 @@
 
   svg {
     position: absolute;
-    right: 470px;
+    right: 540px;
     bottom: 30px;
   }
+
   .creator-img {
     min-width: 500px;
     height: 500px;
@@ -284,7 +285,7 @@
   }
 
   .creator-content {
-    max-width: 800px;
+    max-width: 780px;
     flex-direction: column;
     padding: 20px 5px 0px 5px;
 
@@ -308,15 +309,16 @@
         max-width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: space-around;
         padding: 10px;
         margin: 0 auto;
          
 
         .creator-circle {
-          width: 100px;
-          height: 100px;
+          width: 95px;
+          height: 95px;
           border-radius: 50%;
+          box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
         }
 
         .cc1 {
